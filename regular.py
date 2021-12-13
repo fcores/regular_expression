@@ -7,6 +7,12 @@ read_pdf = PyPDF2.PdfFileReader(pdf_file)
 
 #Hola
 
+
+###################################
+
+
+
+
 # Obtenga todas las páginas del archivo pdf
 number_of_pages = read_pdf.getNumPages()
 # print('total_page: ', number_of_pages)
